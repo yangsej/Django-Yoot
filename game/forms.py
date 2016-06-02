@@ -13,3 +13,5 @@ class SignUpForm(forms.ModelForm):
         if len(nickname) <=2:
             raise forms.ValidationError("Nickname을 2자 이상으로 입력해 주십시오.")
         return nickname
+
+        

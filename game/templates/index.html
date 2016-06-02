@@ -1,7 +1,7 @@
+<h1>{{ title }}</h1>
+{{ form.times }}
+
 <form method='POST' action=''>{% csrf_token %}
 {{ form.as_p }}
 <input type='submit' value='입력 완료' />
 </form>
-
-<h1>다른 플레이어를 기다리는 중</h1>
-
